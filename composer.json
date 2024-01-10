@@ -1,0 +1,14 @@
+{
+    "name": "tk-world/hello-world",
+    "description": "hello world example",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TkWorld\\HelloWorld\\": "src/"
+        }
+    }
+}
